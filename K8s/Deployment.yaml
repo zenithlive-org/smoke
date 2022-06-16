@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: Deployment Template
+  namespace: default
+spec:
+  examples:
+    string1: >
+      This is a long string, where the indentation
+      was guessed to be 6 leading spaces (aka 2 more
+      leading spaces than the parent node). Also note that
+      this long string will be folded into a single-line string with no newline.
